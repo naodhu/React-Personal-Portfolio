@@ -1,0 +1,53 @@
+import React, { useState, useEffect } from "react";
+import { FaUserAlt } from "react-icons/fa";
+
+const About = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => setIsMounted(true), 500);
+    return () => clearTimeout(timeout);
+  }, []);
+
+  return (
+    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+      <div className="flex flex-col justify-center items-center w-full h-full">
+        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
+          {isMounted && (
+            <div className="sm:text-right pb-8 pl-4 animate-fadeIn">
+              <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+                About
+              </p>
+            </div>
+          )}
+          <div></div>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          {isMounted && (
+            <div className="sm:text-right text-4xl font-bold animate-fadeIn delay-100">
+              <p>
+                Hi there! My name is Naod Hunde{" "}
+                <FaUserAlt className="inline text-pink-600" />
+              </p>
+            </div>
+          )}
+          {isMounted && (
+            <div className="animate-fadeIn delay-200">
+              <p>
+                I am a full stack web developer with a passion for creating
+                beautiful and functional websites. I have a strong background in
+                web development and design. I am a self-motivated, hardworking,
+                and dedicated individual who is always looking to learn new
+                skills and improve my knowledge. I am a fast learner and I am
+                always looking for new opportunities to grow and expand my
+                knowledge.
+              </p>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;
