@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+@layer base {
+  body {
+    @apply font-[Raleway];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  ) !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 500ms ease-in-out 1;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.animate-fadeIn.delay-100 {
+  animation-delay: 100ms;
+}
+
+.animate-fadeIn.delay-200 {
+  animation-delay: 200ms;
+}
+
+.animate-fadeIn.delay-300 {
+  animation-delay: 300ms;
+}
+
+.animate-fadeIn.delay-400 {
+  animation-delay: 400ms;
+}
+
+/* css style for the Skills Section */
+
+.skill-item-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.skill-item-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+.skill-item-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.skill-item-exit-active {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 500ms, transform 500ms;
+}
