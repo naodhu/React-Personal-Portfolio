@@ -98,9 +98,6 @@ Please note that not all Pull Requests may be accepted, but all contributions wi
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Support
-
-If you encounter any issues
 
 # Getting Started with Create React App
 
