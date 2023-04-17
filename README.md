@@ -14,7 +14,9 @@ This is a personal portfolio project built using React. It showcases professiona
 
 ## Demo
 
-A live demo of the project is available at [https://spa-portfolio.netlify.app/](https://spa-portfolio.netlify.app/).
+A live demo of the project is available at [react-personal-portfolio-pz9hdwtew-naodhu.vercel.app](react-personal-portfolio-pz9hdwtew-naodhu.vercel.app).
+
+![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/naod/Developer/spa-portfolio/src/assets/Portfolio-React.gif?version%3D1681735734556)
 
 ## Installation
 
