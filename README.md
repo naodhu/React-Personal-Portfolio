@@ -49,6 +49,10 @@ To run the test suite, run `npm test`. The test suite uses Jest and React Testin
 - Tailwind CSS
 - Web Vitals
 
+## badge
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/040aa3ac-2016-458b-8409-796494b06270/deploy-status)](https://app.netlify.com/sites/dulcet-heliotrope-1de41b/deploys)
+
 ## Dev Dependencies
 
 - @testing-library/jest-dom
