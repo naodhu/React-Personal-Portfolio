@@ -16,7 +16,8 @@ This is a personal portfolio project built using React. It showcases professiona
 
 A live demo of the project is available at [react-personal-portfolio-pz9hdwtew-naodhu.vercel.app](react-personal-portfolio-pz9hdwtew-naodhu.vercel.app).
 
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/naod/Developer/spa-portfolio/src/assets/Portfolio-React.gif?version%3D1681735734556)
+![CleanShot 2023-04-17 at 22 55 55](https://user-images.githubusercontent.com/113915529/232490937-35d78c91-0457-4a7b-8958-b92914beaca3.gif)
+
 
 ## Installation
 
