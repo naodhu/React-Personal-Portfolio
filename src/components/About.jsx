@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { FaUserAlt } from "react-icons/fa";
+import {
+  FaUserAlt,
+  FaLinkedin,
+  FaGithub,
+  FaEnvelope,
+  FaDownload,
+} from "react-icons/fa";
 
 const About = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -42,6 +48,28 @@ const About = () => {
                 always looking for new opportunities to grow and expand my
                 knowledge.
               </p>
+              <div className="flex space-x-4 mt-4">
+                <a
+                  href="https://www.linkedin.com/in/naod-hunde/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaLinkedin className="text-2xl text-blue-600 hover:text-blue-800 cursor-pointer" />
+                </a>
+                <a
+                  href="https://github.com/naodhu"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub className="text-2xl text-gray-700 hover:text-gray-900 cursor-pointer" />
+                </a>
+                <a href="mailto:Naodhunde@gmail.com">
+                  <FaEnvelope className="text-2xl text-gray-700 hover:text-gray-900 cursor-pointer" />
+                </a>
+                <a href="./assets/grayre.pdf" download="Myresume">
+                  <FaDownload className="text-2xl text-gray-700 hover:text-gray-900 cursor-pointer" />
+                </a>
+              </div>
             </div>
           )}
         </div>
