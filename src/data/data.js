@@ -16,18 +16,4 @@ export const data = [
     github: "https://github.com/naodhu/chat-support1",
     live: "https://chat-support-999.herokuapp.com/",
   },
-  //   {
-  //     id: 3,
-  //     name: "React JS Application",
-  //     image: WorkIm,
-  //     github: "",
-  //     live: "",
-  //   },
-  //   {
-  //     id: 4,
-  //     name: "React JS Application",
-  //     image: RealEst,
-  //     github: "",
-  //     live: "",
-  //   },
 ];
