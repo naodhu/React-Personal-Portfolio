@@ -18,7 +18,6 @@ A live demo of the project is available at [react-personal-portfolio-pz9hdwtew-n
 
 ![CleanShot 2023-04-17 at 22 55 55](https://user-images.githubusercontent.com/113915529/232490937-35d78c91-0457-4a7b-8958-b92914beaca3.gif)
 
-
 ## Installation
 
 To install the project, follow these steps:
@@ -97,7 +96,6 @@ Please note that not all Pull Requests may be accepted, but all contributions wi
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
 
 # Getting Started with Create React App
 
