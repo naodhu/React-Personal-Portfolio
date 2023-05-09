@@ -16,7 +16,7 @@ const About = () => {
   }, []);
 
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div id="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           {isMounted && (
@@ -66,7 +66,7 @@ const About = () => {
                 <a href="mailto:Naodhunde@gmail.com">
                   <FaEnvelope className="text-2xl text-gray-700 hover:text-gray-900 cursor-pointer" />
                 </a>
-                <a href="./assets/grayre.pdf" download="Myresume">
+                <a href="./assets/grayre.pdf " download="Myresume">
                   <FaDownload className="text-2xl text-gray-700 hover:text-gray-900 cursor-pointer" />
                 </a>
               </div>
