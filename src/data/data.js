@@ -19,7 +19,7 @@ export const data = [
   },
   {
     id: 3,
-    name: "MERN Stack.",
+    name: "MERN Stack",
     image: EazyMart,
     github: "https://github.com/naodhu/EazyMart.git",
     live: "https://productstore-zmxj.onrender.com/",
