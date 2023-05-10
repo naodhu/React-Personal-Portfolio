@@ -22,6 +22,6 @@ export const data = [
     name: "MERN Stack",
     image: EazyMart,
     github: "https://github.com/naodhu/EazyMart.git",
-    live: "https://productstore-zmxj.onrender.com/",
+    live: "https://eazymartshop.herokuapp.com/",
   },
 ];
